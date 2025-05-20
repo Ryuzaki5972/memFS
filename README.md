@@ -56,9 +56,11 @@ cl /EHsc /std:c++17 memFS.cpp /Fe:memfs.exe
 3. (Optional) Using CMake:
 
 ```bash
-mkdir build && cd build
-cmake ..
+# Building: Use the provided `Makefile` to build the project. In the terminal, run:
 make
+
+# Cleaning : To remove compiled files, use:
+make clean
 ```
 
 ## Usage
